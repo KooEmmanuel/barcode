@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useBarcode } from 'react-barcodes';
-// @ts-ignore
+// @ts-expect-error: file-saver doesn't have type definitions
 import { saveAs } from 'file-saver';
 import * as XLSX from 'xlsx';
 import JSZip from 'jszip';
