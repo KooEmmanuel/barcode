@@ -94,14 +94,14 @@ const BarcodeGenerator: React.FC = () => {
               <label htmlFor="productName" className="block text-sm font-medium text-gray-700">Product Name</label>
               <input
                 id="productName"
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                className="mt-1 block w-full rounded-md text-black border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 value={productName}
                 onChange={(e) => setProductName(e.target.value)}
                 placeholder="Enter product name"
               />
             </div>
             <div>
-              <label htmlFor="quantity" className="block text-sm font-medium text-gray-700">Quantity</label>
+              <label htmlFor="quantity" className=" text-black block text-sm font-medium ">Quantity</label>
               <input
                 id="quantity"
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
